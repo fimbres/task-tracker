@@ -1,0 +1,22 @@
+{
+  "name": "task-tracker",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "CLI Tool For Tasks Management.",
+  "keywords": [],
+  "author": "@fimbres",
+  "license": "ISC",
+  "main": "index.js",
+  "bin": {
+    "cli-tool": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "packageManager": "pnpm@10.8.0",
+  "devDependencies": {
+    "@types/node": "^24.0.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
